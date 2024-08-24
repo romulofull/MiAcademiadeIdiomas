@@ -16,7 +16,7 @@ function FormularioCursos() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('/api/messages', formData)
+    axios.post('http://localhost:5000/api/mensaje', formData)
       .then(response => {
         alert('Mensaje enviado');
         setFormData({ name: '', phone: '', email: '', message: '' });
@@ -34,7 +34,7 @@ function FormularioCursos() {
       </label>
       <label>
         Teléfono (opcional):
-        <input type="tel" name="phone" value={formData.phone} onChange={handleChange} />
+        <input type="text" name="phone" value={formData.phone} onChange={handleChange} />
       </label>
       <label>
         Correo Electrónico:

@@ -19,7 +19,7 @@ function App() {
       <h1>Academia de Idiomas</h1>
     <div className="cursos-container">
         {ofertacursos.map(curso => (
-          <TarjetaCursos key={curso.id} nombre={curso.nombre} foto={curso.foto} precio={curso.precio} fechaEmpezar={curso.fechaEmpezar} niveles={curso.niveles} className="tarjeta.cursos"/>
+          <TarjetaCursos key={curso.id} nombre={curso.nombre} foto={curso.foto} precio={curso.precio} fechaEmpezar={curso.fechaEmpezar} niveles={curso.niveles} className="tarjeta-cursos"/>
         ))}
       </div>
       <FormularioCursos/>  
