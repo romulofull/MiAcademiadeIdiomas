@@ -1,0 +1,73 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  .cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .tarjeta-cursos {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px; /* Tamaño de la tarjeta */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .tarjeta-cursos h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #0d170e;
+  }
+  
+  .tarjeta-cursos p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #7f8c8d;
+  }
+
+  .tarjeta-cursos img {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .course-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .course-form input, .course-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .course-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .course-form button:hover {
+    background-color: #0056b3;
+  }
+  
